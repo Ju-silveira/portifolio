@@ -7,8 +7,65 @@ desktop                   : 1280-1889
 tv e tela muito grandes   : 1890
 */
 
-/*@media screen and (min-width : 481px) and (max-width : 768px){
-    body{
+@media screen and (min-width : 481px) and (max-width : 768px){
+    /*body{
         background-color: aqua;
+    }*/
+
+    /*comfiguração da parte home*/
+    header nav{
+        font-size: 20px;
     }
-}*/
+
+    #apresentacao h1{
+        font-size: 50px;
+    }
+    #apresentacao p{
+        font-size: 30px
+    }
+
+    /*comfiguração da aria de projeto*/
+
+    .direita img{
+        width: 150px;
+    }
+    
+    .esquerda img{
+        width: 150px;
+    }
+    /*direita*/
+
+    .direita{
+        margin-right: 14%;
+    }
+
+    .direita  h2{
+        font-size: 40px;
+    }
+    .direita p{
+        font-size: 20px;
+    }
+
+    /*esquerda*/
+
+    .esquerda{
+        margin-left: 14%;
+    }
+
+    .esquerda h2{
+        font-size: 40px;
+    }
+
+    .esquerda p{
+        font-size: 20px;
+    } 
+    
+    /*sobrmim*/
+
+    
+    #sobremim > h2{
+        margin-left: 30vw;
+    }
+    
+
+}
