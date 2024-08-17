@@ -251,6 +251,10 @@ footer{
     display: flex;
     justify-content:space-around ;
     color: var(--cor4);
+    margin-top: 20%;
+    background-color: gray;
+    color: #000000;
+    padding: 30px;
 }
 
 .imagensredes{
