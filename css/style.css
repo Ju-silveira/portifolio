@@ -173,10 +173,12 @@ header nav a{
 
 .direita img{
     width: 100px;
+    border-radius: 20px;
 }
 
 .esquerda img{
     width: 100px;
+    border-radius: 20px;
 }
 
 
@@ -184,9 +186,11 @@ header nav a{
 /*fazendo a parte sobre mim*/
 
 #sobremim{
-    min-height:80vh ;
+    min-height:90vh ;
     width:100vw ;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #fotodescricao{
@@ -195,6 +199,7 @@ header nav a{
     column-gap: 20px;
     margin: 10vw;
     margin-bottom: 20vh;
+  
 }
 
 #minhafoto{
@@ -211,6 +216,7 @@ header nav a{
    display: flex;
    flex-direction:column;
    row-gap: 15px;
+   max-width: 600px;
 }
 
 #meutexto > p{
@@ -221,7 +227,6 @@ header nav a{
     color: var(--cor4);
     max-width: 300px;
     text-align: center;
-    margin-left: 20vw;
 }
 
 #curriculo{

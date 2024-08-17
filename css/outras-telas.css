@@ -7,7 +7,7 @@ desktop                   : 1280-1889
 tv e tela muito grandes   : 1890
 */
 
-@media screen and (min-width : 481px) and (max-width : 768px){
+@media screen and (min-width : 517px) and (max-width : 768px){
     /*body{
         background-color: aqua;
     }*/
@@ -64,8 +64,171 @@ tv e tela muito grandes   : 1890
 
     
     #sobremim > h2{
-        margin-left: 30vw;
+        /*margin-left: 30vw;*/
+        font-size: 30px;
+    }
+    
+    #meutexto p{
+        font-size: 23px;
+    }
+
+    #meutexto h2{
+        font-size: 35px;
+    }
+
+    #meunumero{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width :769px ) and (max-width : 1279px){
+    /*body{
+        background-color: aqua;
+    }*/
+
+    header nav{
+        font-size: 20px;
+    }
+
+    #apresentacao h1{
+        font-size: 50px;
+    }
+    #apresentacao p{
+        font-size: 30px
+    }
+
+    .direita img{
+        width: 150px;
+    }
+    
+    .esquerda img{
+        width: 150px;
+    }
+    /*direita*/
+
+    .direita{
+        margin-right: 14%;
+    }
+
+    .direita  h2{
+        font-size: 40px;
+    }
+    .direita p{
+        font-size: 20px;
+    }
+
+    /*esquerda*/
+
+    .esquerda{
+        margin-left: 14%;
+    }
+
+    .esquerda h2{
+        font-size: 40px;
+    }
+
+    .esquerda p{
+        font-size: 20px;
+    } 
+
+    /*sobrmim*/
+
+    
+    #sobremim > h2{
+        /*margin-left: 40vw;*/
+        font-size: 30px;
+    }
+    
+    #meutexto p{
+        font-size: 23px;
+    }
+
+    #meutexto h2{
+        font-size: 35px;
+    }
+
+    #meunumero{
+        font-size: 30px;
+    }
+
+    #fotodescricao{
+        margin-left: 20vw;
     }
     
 
+
+}
+
+@media screen and (min-width : 1280px) and (max-width :1917px){
+    /*body{
+        background-color: aqua;
+    }*/
+    header nav{
+        font-size: 20px;
+    }
+
+    #apresentacao h1{
+        font-size: 50px;
+    }
+    #apresentacao p{
+        font-size: 30px
+    }
+
+    .direita img{
+        width: 150px;
+    }
+    
+    .esquerda img{
+        width: 150px;
+    }
+    /*direita*/
+
+    .direita{
+        margin-right: 14%;
+    }
+
+    .direita  h2{
+        font-size: 40px;
+    }
+    .direita p{
+        font-size: 20px;
+    }
+
+    /*esquerda*/
+
+    .esquerda{
+        margin-left: 14%;
+    }
+
+    .esquerda h2{
+        font-size: 40px;
+    }
+
+    .esquerda p{
+        font-size: 20px;
+    } 
+
+    /*sobrmim*/
+
+    
+    #sobremim > h2{
+        /*margin-left: 40vw;*/
+        font-size: 30px;
+    }
+    
+    #meutexto p{
+        font-size: 23px;
+    }
+
+    #meutexto h2{
+        font-size: 35px;
+    }
+
+    #meunumero{
+        font-size: 30px;
+    }
+
+    #fotodescricao{
+        margin-left: 20vw;
+    }
 }
