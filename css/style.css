@@ -35,12 +35,21 @@ body{
 }
 
 /*menu*/
-header nav{
+header{
+    position: fixed;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
+    left: 75vw;
+    top: 0vh;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
     column-gap:15px;
     padding: 10px;
     padding-right:30px ;
+
 }
 
 header nav a{
