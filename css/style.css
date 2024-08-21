@@ -35,21 +35,12 @@ body{
 }
 
 /*menu*/
-header{
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    left: 75vw;
-    top: 0vh;
-}
 
 header nav ul{
     display: flex;
     justify-content: flex-end;
-    column-gap:15px;
+    column-gap: 15px;
     padding: 10px;
-    padding-right:30px ;
-
 }
 
 header nav a{
@@ -183,13 +174,22 @@ header nav a{
 .direita img{
     width: 100px;
     border-radius: 20px;
+    transition: 3s;
+}
+
+.direita img:hover{
+    transform: scale(1.1);
 }
 
 .esquerda img{
     width: 100px;
     border-radius: 20px;
+    transition: 3s;
 }
 
+.esquerda img:hover{
+    transform: scale(1.1);
+}
 
 
 /*fazendo a parte sobre mim*/
@@ -252,6 +252,7 @@ header nav a{
 #curriculo:hover{
     background-color: var(--cor2);
     color: black;
+    transform: scale(1.1);
 }
 
 /*roda pe do site*/
