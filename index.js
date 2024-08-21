@@ -26,3 +26,12 @@ const obisevarRV = new IntersectionObserver((entradaRV) => {
 })
 
 elementosRV.forEach( (elemento) => obisevarRV.observe(elemento))
+
+//magia no mouser
+
+const magia = document.getElementById('magia');
+const ctx = magia.getContext('2d');
+magia.width = window.innerWidth;
+magia.height = window.innerHeight;
+let spots= [];
+let hue = 0;
