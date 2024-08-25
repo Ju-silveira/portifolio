@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/Designer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+#gmail{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+#senha{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
