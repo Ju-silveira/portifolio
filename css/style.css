@@ -177,6 +177,7 @@ header nav a{
     transition: 3s;
 }
 
+
 .direita img:hover{
     transform: scale(1.1);
 }
