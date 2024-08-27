@@ -21,10 +21,59 @@ body{
     width: 300px;
     height: 30px;
     margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(250, 242, 242, 0);
+    border-color: #F2F7E9;
+    color: white;
 }
 
 #senha{
     width: 300px;
     height: 30px;
     margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(250, 242, 242, 0);
+    border-color: #F2F7E9;
+    color: white;
 }
+
+#login{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(250, 242, 242, 0);
+    color: #ece099e7;
+    font-size: 24px;
+    border-color: #F2F7E9;
+}
+
+::-webkit-input-placeholder {
+    color: #ece099e7;
+    font: 12px verdana, arial, sans-serif;
+    font-size: 24px;
+ }
+
+ 
+#login:hover{
+    border-color: #F0E5BE;
+    position: relative;
+    top: 5px;
+    left: 5px;
+ }
+ #senha:hover{
+    border-color: #F0E5BE;
+    position: relative;
+    top: 5px;
+    left: 5px;
+ }
+ #gmail:hover{
+    border-color: #F0E5BE;
+    position: relative;
+    top: 5px;
+    left: 5px;
+ }
+ 
