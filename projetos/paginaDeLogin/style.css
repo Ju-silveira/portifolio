@@ -17,14 +17,36 @@ body{
 main{
     background-color: #ffffff21 ;
     width: 350px;
-    height: 500px;
+    height: 435px;
     border-radius: 20px;
     padding: 10px;
 }
+ img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ }
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+form{
+    margin-top: 50px;
+}
+p{
+    margin-top: 10px;
+}
+
 
 #gmail{
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
     border-radius: 10px;
     text-align: center;
@@ -35,7 +57,7 @@ main{
 
 #senha{
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
     border-radius: 10px;
     text-align: center;
@@ -46,37 +68,37 @@ main{
 
 #login{
     width: 300px;
-    height: 30px;
+    height: 40px;
     margin: 10px;
     border-radius: 10px;
     text-align: center;
     background-color: rgba(250, 242, 242, 0);
-    color: #ece099e7;
+    color:white;
     font-size: 24px;
     border-color: #F2F7E9;
 }
 
 ::-webkit-input-placeholder {
-    color: #ece099e7;
+    color:rgb(250, 242, 242) ;
     font: 12px verdana, arial, sans-serif;
     font-size: 24px;
  }
 
  
 #login:hover{
-    border-color: #F0E5BE;
+    border-color:rgba(101, 4, 146, 0.911);
     position: relative;
     top: 5px;
     left: 5px;
  }
  #senha:hover{
-    border-color: #F0E5BE;
+    border-color: rgba(101, 4, 146, 0.911);
     position: relative;
     top: 5px;
     left: 5px;
  }
  #gmail:hover{
-    border-color: #F0E5BE;
+    border-color: rgba(101, 4, 146, 0.911);
     position: relative;
     top: 5px;
     left: 5px;
