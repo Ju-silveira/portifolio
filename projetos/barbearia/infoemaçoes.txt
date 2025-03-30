@@ -1,0 +1,21 @@
+#261B07 (Marrom bem escuro) → Ótima cor de fundo ou pra detalhes discretos.
+
+#A6771F (Dourado queimado) → Perfeito pra destaque, tipo títulos, botões ou bordas.
+
+#000000 (Preto absoluto) → Base forte, traz elegância e contraste.
+
+#402E0C (Marrom médio) → Dá profundidade e pode servir pra dividir seções.
+
+#0D0D0D (Quase preto) → Funciona bem pra textos escuros sem ser pesado demais.
+
+nome: barbershop
+
+contato:11 557409736
+
+redesociais:não 
+
+referencias:tem
+
+endereço:rua sera do canda 186
+
+
