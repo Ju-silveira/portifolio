@@ -1,4 +1,13 @@
 const elementos = document.querySelectorAll('.movimento')
+const iolita = document.querySelector('#iolita')
+const falasIolita = document.querySelectorAll('#balao-iolita p')
+let falaAtual = 0
+
+iolita.addEventListener('click', () => {
+    falasIolita.forEach(fala => fala.hidden = true)
+    falasIolita[falaAtual].hidden = false
+    falaAtual = (falaAtual + 1) % falasIolita.length
+})
 
 const obisevar = new IntersectionObserver((entrada) => {
     entrada.forEach( (visor) => {
