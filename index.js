@@ -1,7 +1,51 @@
+const imagemProjeto = document.querySelector('#imagem-projeto')
+const anterior = document.querySelector('#anterior')
+const proximo = document.querySelector('#proximo')
 const elementos = document.querySelectorAll('.movimento')
 const iolita = document.querySelector('#iolita')
 const falasIolita = document.querySelectorAll('#balao-iolita p')
+const balaoNexus = document.querySelector('#balao-nexus p')
+
+
+const projetos = [
+    {
+        imagem: 'imagens/iolitaprojeto.png',
+        nome: 'Iolita',
+        fala: 'A Iolita é um modelo de IA que roda no computador do Júlio. Ele faz fine-tuning e treinamentos nela para tentar criar uma personalidade mais marcante.'
+    },
+    {
+        imagem: 'imagens/nexusprojeto.png',
+        nome: 'Nexus',
+        fala: 'Eu sou o Nexus, um bot de automação que funciona como conector. Posso entender comandos e realizar automações e tarefas dentro e fora da máquina, inclusive usando ferramentas externas, como o Telegram.'
+    },
+    {
+        imagem: 'imagens/ziloprojeto.jpeg',
+        nome: 'Zilo',
+        fala: 'O Zilo é o mascote do Júlio. Esse bichinho de fios e código já deu dor de cabeça pro Júlio. Cansei de ouvir reclamações sobre ele... mesmo assim, Júlio continua desenvolvendo esse brinquedo.'
+    }
+]
+
+
+let projetoAtual = 0
 let falaAtual = 0
+
+function mostrarProjeto() {
+    imagemProjeto.src = projetos[projetoAtual].imagem
+    imagemProjeto.alt = projetos[projetoAtual].nome
+    balaoNexus.textContent = projetos[projetoAtual].fala
+}
+
+mostrarProjeto()
+
+anterior.addEventListener('click', () => {
+    projetoAtual = (projetoAtual - 1 + projetos.length) % projetos.length
+    mostrarProjeto()
+})
+
+proximo.addEventListener('click', () => {
+    projetoAtual = (projetoAtual + 1) % projetos.length
+    mostrarProjeto()
+})
 
 iolita.addEventListener('click', () => {
     falasIolita.forEach(fala => fala.hidden = true)
