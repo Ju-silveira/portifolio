@@ -11,16 +11,19 @@ const projetos = [
     {
         imagem: 'imagens/iolitaprojeto.png',
         nome: 'Iolita',
+        link: 'iolita/index.html',
         fala: 'A Iolita é um modelo de IA que roda no computador do Júlio. Ele faz fine-tuning e treinamentos nela para tentar criar uma personalidade mais marcante.'
     },
     {
         imagem: 'imagens/nexusprojeto.png',
         nome: 'Nexus',
+        link: 'nexus/index.html',
         fala: 'Eu sou o Nexus, um bot de automação que funciona como conector. Posso entender comandos e realizar automações e tarefas dentro e fora da máquina, inclusive usando ferramentas externas, como o Telegram.'
     },
     {
         imagem: 'imagens/ziloprojeto.jpeg',
         nome: 'Zilo',
+        link: 'zilo/index.html',
         fala: 'O Zilo é o mascote do Júlio. Esse bichinho de fios e código já deu dor de cabeça pro Júlio. Cansei de ouvir reclamações sobre ele... mesmo assim, Júlio continua desenvolvendo esse brinquedo.'
     }
 ]
@@ -33,6 +36,7 @@ function mostrarProjeto() {
     imagemProjeto.src = projetos[projetoAtual].imagem
     imagemProjeto.alt = projetos[projetoAtual].nome
     balaoNexus.textContent = projetos[projetoAtual].fala
+    document.querySelector('#projeto-atual a').href = projetos[projetoAtual].link
 }
 
 mostrarProjeto()
